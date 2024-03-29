@@ -65,7 +65,7 @@ Download the desired Python package (Python 3.11.8 in this example):
 wget https://www.python.org/ftp/python/3.11.8/Python-3.11.8.tgz
 tar zxf Python-3.11.8.tgz
 cd Python-3.11.8
-./configure --enable-optimizations --with-lto --enable-shared --prefix=/opt/python3.8 LDFLAGS=-Wl,-rpath,/opt/python3.8/lib
+./configure --enable-optimizations --with-lto --enable-shared --prefix=/opt/python3.11 LDFLAGS=-Wl,-rpath,/opt/python3.11/lib
 make
 sudo make altinstall
 ```
